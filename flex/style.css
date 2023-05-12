@@ -1,1 +1,150 @@
- 
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+ width: 100%;
+ background-color: #d42a9b;
+}
+
+.header-contents {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-box {
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+  background-color: #dda0dd;
+}
+
+.header-box:first-child {
+  margin-right: auto;
+}
+
+main {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.main-visual-left {
+  width: 300px;
+  background-color: red;
+}
+
+.main-visual-right {
+  max-width: 700px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: green;
+}
+
+.box1 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box2 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box3 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box4 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box5 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box6 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box7 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box8 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box9 {
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+footer {
+  width: 100%;
+  background-color: blue;
+}
+
+.footer-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-box1 {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: #e0ffff;
+}
+
+.f-box2 {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: #e0ffff;
+}
+
+.f-box3 {
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: #e0ffff;
+}
+
+.f-box3:nth-child(3) {
+  flex-wrap: wrap;
+}

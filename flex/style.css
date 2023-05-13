@@ -7,7 +7,7 @@
 
 header {
  width: 100%;
- background-color: #d42a9b;
+ background-color: #CC3399;
 }
 
 .header-contents {
@@ -28,116 +28,45 @@ header {
 }
 
 main {
-  width: 1000px;
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .main-visual-left {
   width: 300px;
-  background-color: red;
+  background-color: #CCFF00;
 }
 
 .main-visual-right {
   max-width: 700px;
   flex-grow: 1;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  justify-content: center;
   background-color: green;
 }
 
-.box1 {
+.main-visual-right > div {
   flex-basis: 200px;
   height: 130px;
   margin: 10px;
-  background-color: yellow;
-}
-
-.box2 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box3 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box4 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box5 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box6 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box7 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box8 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
-}
-
-.box9 {
-  flex-basis: 200px;
-  height: 130px;
-  margin: 10px;
-  background-color: yellow;
+  background-color: #FFFF00;
 }
 
 footer {
   width: 100%;
-  background-color: blue;
+  background-color: #3399FF;
 }
 
 .footer-box {
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.f-box1 {
-  flex-basis: 45%;
-  max-width: 600px;
-  height: 40px;
-  margin: 10px;
-  background-color: #e0ffff;
-}
-
-.f-box2 {
-  flex-basis: 45%;
-  max-width: 600px;
-  height: 40px;
-  margin: 10px;
-  background-color: #e0ffff;
-}
-
-.f-box3 {
+.footer-box > div {
   flex-basis: 45%;
   max-width: 600px;
   height: 40px;
